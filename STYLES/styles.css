@@ -1,0 +1,125 @@
+#appBg {
+    height: 420px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#appBg form {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#appBg input[type=textfield] {
+    height: 22%;
+    width: 90%;
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+#appBg input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+#appBg .orange {
+    background-color: rgb(253, 149, 3) !important;
+    color: white;
+}
+#appBg .gray {
+    background-color: rgb(51, 51, 51) !important;
+    color: white !important; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(139,59,126,1) 45%, rgba(0,212,255,1) 100%);
+}
+
+#appBg {
+    height: 420px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+}
+
+#appBg form {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Estilos básicos de #appBg */
+#appBg {
+    height: 420px;
+    width: 90%;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hacer que el formulario ocupe el 100% del contenedor */
+#appBg form {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+/* Responsividad para dispositivos medianos (tabletas) */
+@media (max-width: 768px) {
+    #appBg {
+        height: 360px;
+        width: 80%;
+    }
+
+    #appBg input[type=textfield] {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    #appBg input[type=button],
+    #appBg input[type=reset] {
+        font-size: 24px;
+        padding: 15px;
+    }
+}
+
+/* Responsividad para dispositivos pequeños (móviles) */
+@media (max-width: 480px) {
+    #appBg {
+        height: 320px;
+        width: 90%;
+    }
+
+    #appBg input[type=textfield] {
+        font-size: 30px;
+        padding: 8px;
+    }
+
+    #appBg input[type=button],
+    #appBg input[type=reset] {
+        font-size: 22px;
+        padding: 12px;
+    }
+}
